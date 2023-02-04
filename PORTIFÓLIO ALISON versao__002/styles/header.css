@@ -1,0 +1,79 @@
+.cabeçalho__menu-hamburger{
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;                  
+    background-position: center;                    
+    display: inline-block;
+    background-image: url("../img/Menu.svg");
+    margin: 0 1em;
+
+}
+
+.logo__alison.dev{
+    width: 24px;
+    height: 24px;
+}
+
+.cabeçalho{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+#Logo__Alison-Dev{
+    width: 8vw;
+    height: 8vw;
+}
+
+.container__imagem{
+    padding: 0.5em;
+
+}
+
+#social__logo{
+    width: 50px;
+    height: 50px;
+    padding: 0.5em;
+}
+
+.lista-menu{
+    display: none;
+    position: absolute;
+    top:100%;
+    width: 60vw;
+}
+
+.container__botao:checked ~ .lista-menu{
+    display: block
+}
+
+.lista-menu__titulo, .lista-menu__item{
+    padding: 1em;
+    background-color: var(--branco);
+
+    
+}
+
+.lista-menu__titulo{
+    color: var(--laranja);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.lista-menu__link{
+    text-decoration: none;
+    background: var(--azul-degrade);       
+    -webkit-background-clip: text;                  /*Serve para funcionar em outros tipos de navegadores*/    
+    -webkit-text-fill-color: transparent;           /*Serve para funcionar em outros tipos de navegadores*/
+    background-clip: text;                           
+    text-transform: uppercase;  
+}
+
+
