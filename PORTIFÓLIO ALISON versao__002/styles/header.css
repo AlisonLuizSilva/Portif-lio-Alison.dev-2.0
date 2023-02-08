@@ -37,9 +37,9 @@
 
 }
 
-#social__logo{
-    width: 50px;
-    height: 50px;
+#social-logo{
+    width: 45px;
+    height: 45px;
     padding: 0.5em;
 }
 
@@ -47,7 +47,7 @@
     display: none;
     position: absolute;
     top:100%;
-    width: 60vw;
+    width: 50vw;
 }
 
 .container__botao:checked ~ .lista-menu{
@@ -58,7 +58,6 @@
     padding: 1em;
     background-color: var(--branco);
 
-    
 }
 
 .lista-menu__titulo{
@@ -67,11 +66,15 @@
     text-transform: uppercase;
 }
 
+.container__botao{
+    display: none;
+}
+
 .lista-menu__link{
     text-decoration: none;
-    background: var(--azul-degrade);       
-    -webkit-background-clip: text;                  /*Serve para funcionar em outros tipos de navegadores*/    
-    -webkit-text-fill-color: transparent;           /*Serve para funcionar em outros tipos de navegadores*/
+    background: var(--cor-fonte-padrao);       
+    -webkit-background-clip: text;                  
+    -webkit-text-fill-color: transparent;           
     background-clip: text;                           
     text-transform: uppercase;  
 }

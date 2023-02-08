@@ -1,0 +1,14 @@
+footer{
+    background: linear-gradient(#E5E5E5 5%,#868F96 90%);
+}
+
+.imagem__rodape{
+    position: relative;
+    margin: 2em 0 0 0;
+    left: 40%;
+}
+
+.copyright{
+    text-align: center;
+    padding: 2em;
+}
