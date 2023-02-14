@@ -1,3 +1,5 @@
+/*BANNER PAGINA PRINCIPAL*/
+
 .banner{
     background: var(--cinza-degrade);
     color: var(--branco);
@@ -13,7 +15,10 @@
 
 .banner__texto{
     margin: 1em;
-    font-weight: 500;
+    font-weight: 400;
+    line-height: 1.5em;
+
+
 }
 
 .barra__pesquisa{
@@ -36,5 +41,20 @@
     background:url("../img/Lupa.svg") no-repeat;
     background-position: 1em;
 
+
+}
+
+/*BANNER CONTATOS*/
+
+.banner__contato{
+    background: var(--cinza-degrade);
+    color: var(--branco);
+    text-align: center;
+    padding: 9em 2em;
+}
+
+.banner-contato__texto{
+    font-size: 30px;
+    font-weight: 700;
 
 }

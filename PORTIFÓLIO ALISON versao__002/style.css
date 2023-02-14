@@ -2,6 +2,7 @@
 @import url(styles/banner.css);
 @import url(styles/apresentacao.css);
 @import url(styles/footer.css);
+@import url(styles/lista-contatos.css);
 
 :root{
     --cor-de-fundo: #E5E5E5;

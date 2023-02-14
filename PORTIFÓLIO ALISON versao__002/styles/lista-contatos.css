@@ -1,0 +1,32 @@
+.contatos{
+    background: var(--cor-de-fundo);
+    display: flex;
+    justify-content: space-between;
+    padding: 5em;
+}
+
+.item-contatos{
+    display: inline-block;
+    text-align: center;
+    position: static;
+    line-height: 2em;
+
+}
+
+#titulo__contato{
+    font-size: 20px;
+}
+
+.descricao__contatos{
+    font-size: 18px;
+}
+
+.informacao__contatos{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.mapas{
+    text-align: center;
+}
+
