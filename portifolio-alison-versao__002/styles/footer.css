@@ -1,0 +1,27 @@
+footer{
+    background: linear-gradient(#E5E5E5 5%,#868F96 90%);
+}
+
+
+.imagem__rodape{
+    position: static;
+    display: block;
+    margin: 2em 40vw 0 40vw;
+
+  
+}
+
+.copyright{
+    text-align: center;
+    padding: 2em;
+   
+}
+
+@media screen and (max-width:480px) {
+    .imagem__rodape{
+        position: static;
+        display: block;
+        margin: 2em 25vw 0 25vw;
+
+    }
+}
