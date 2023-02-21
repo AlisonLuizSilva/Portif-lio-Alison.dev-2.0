@@ -4,6 +4,7 @@
 @import url(styles/footer.css);
 @import url(styles/lista-contatos.css);
 @import url(styles/es-cotacoes.css);
+@import url(styles/es-formulario.css);
 
 
 :root{
@@ -32,4 +33,11 @@ h4{
     margin: 1em 0;
     color: var(--laranja);
     font-weight: 900;
+}
+
+form{
+  
+    width: 80%;
+    margin: 2.5% auto;
+    line-height: 2em;
 }

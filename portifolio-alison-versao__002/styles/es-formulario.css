@@ -1,0 +1,49 @@
+.container__formulario{
+    display: flex;
+}
+
+.input-padrao{
+    display: block;
+    width: 70%;
+    padding: 10px 15px;
+}
+
+.acomodacao{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.descricao-copart{
+    font-size: 13px;
+    line-height: 1em;
+    margin: 0 0 0 1.5em;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+}
+
+.enviar{
+    font-size: 20px;
+    display: block;
+    margin: 4em auto;
+    padding: 15px 90px;
+    background-color: var(--laranja);
+    color: var(--branco);
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.enviar:hover{
+    transform: scale(1.5);
+    transition: 1s all;
+}
+
+.enviar:active{
+    background-color: darkgreen;
+}

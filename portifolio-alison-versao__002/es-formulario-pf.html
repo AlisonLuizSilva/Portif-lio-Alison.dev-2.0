@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head >                                                                         
+        <meta charset="UTF=8">                                                      
+        <meta name="viewport"   content="width=device-width, intial-scale=1.0">    
+        <title>Alison.dev</title> 
+        <link rel="stylesheet"  href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">                                  
+        <link rel="stylesheet"  href="style.css">                           
+    </head>
+        <header class="cabeçalho">
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu">
+                    <span class="cabeçalho__menu-hamburger container__imagem"></span>
+                </label>
+                    <ul class="lista-menu">
+                        <li class="lista-menu__item">
+                            <a href="/index.html" class="lista-menu__link">Menu Principal</a>
+                        </li>
+
+                        <li class="lista-menu__titulo">Portifólio de Sites</li>
+                        
+                        <li class="lista-menu__item">
+                            <a href="/site_barbearia_alura/index.html" class="lista-menu__link">Site Barbearia Alura</a>
+                        </li>
+
+                        <li class="lista-menu__titulo">Experiência Securitária</li>
+
+                        <li class="lista-menu__item">
+                            <a href="/es-cotacoes-saude.html" class="lista-menu__link">Cotações Planos de Saúde</a>
+                        </li>
+
+                        <li class="lista-menu__titulo">&#8595;Contate-me&#8595;</li>
+
+                        <li class="lista-menu__item">
+                            <a href="/contato.html" class="lista-menu__link">Contato</a>
+                        </li>
+                    </ul>
+                    <img src="img/alison.dev-logo.svg" alt="Logo Alison Dev" id="Logo__Alison-Dev" class="container__imagem">
+             </div>
+    
+            <div class="container">
+                <a href="https://br.linkedin.com/in/alison-luiz-silva-60231b186?original_referer="><img src="img/LinkedIn-logo.svg" alt="Logo do Linkedin" id="social-logo" class="container__imagem"></a>
+                <a href="https://www.instagram.com/alisonluizs_/"><img src="img/Instagram-logo.svg" alt="Logo do Instagram" id="social-logo" class="container__imagem"></a>
+                <a href="https://wa.me/5511987809407"><img src="img/whatsapp-logo.svg" alt="Logo whatsapp" id="social-logo" class="container__imagem"></a>
+                <a href="https://github.com/AlisonLuizSilva"><img src="img/github-logo.svg" alt="Logo Github" id="social-logo" class="container__imagem"></a>
+             </div>
+    </header>
+            <section class="container__formulario">
+                    
+                <form> 
+                        <h4>FORMULÁRIO DE COTAÇÃO SAÚDE PESSOA FÍSICA</h4>
+                    <label for="nome-completo">Nome Completo</label>
+                    <input type="text" id="nome-completo" class="input-padrao" required placeholder="Nome completo">
+
+                    <label for="cpf">CPF</label>
+                    <input type="text" id="cpf" class="input-padrao" required placeholder="Somente números">
+
+                    <label for="nascimento-titular">Data de Nascimento titular</label>
+                    <input type="date" id="data-nasc__tit" class="input-padrao" required placeholder="Somente Números"> 
+
+                        <fieldset class="UF">
+                            <legend>UF</legend>
+                                <select>
+                                    <option>AC</option>
+                                    <option>AL</option>
+                                    <option>AP</option>
+                                    <option>AM</option>
+                                    <option>BA</option>
+                                    <option>CE</option>
+                                    <option>DF</option>
+                                    <option>ES</option>
+                                    <option>GO</option>
+                                    <option>MA</option>
+                                    <option>MT</option>
+                                    <option>MS</option>
+                                    <option>MG</option>
+                                    <option>PA</option>
+                                    <option>PB</option>
+                                    <option>PR</option>
+                                    <option>PE</option>
+                                    <option>PI</option>
+                                    <option>RJ</option>
+                                    <option>RN</option>
+                                    <option>RS</option>
+                                    <option>RO</option>
+                                    <option>RR</option>
+                                    <option>SC</option>
+                                    <option>SP</option>
+                                    <option>SE</option>
+                                    <option>TO</option>
+                                </select>
+                        </fieldset>
+                    
+                    <label for="cidade">Cidade de Residência</label>
+                    <input type="text" id="cidade" class="input-padrao" required placeholder="Insira sua cidade">
+
+                    <label for="formacao-academica">Formação Acadêmica</label>
+                    <input type="text" id="formacao-academica" class="input-padrao" required placeholder="Preencha se houver">
+
+                        <fieldset class="dependentes">
+                            <legend>Dependentes</legend>
+                                <select>
+                                    <option>0</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                </select>
+                        </fieldset>
+                    
+                        <fieldset class="acomodacao">
+                            <legend>Tipo de Acomodação</legend>
+
+                                <label for="radio-qc">
+                                    <input type="radio" name="tipo-acomodacao" value="quarto-coletivo" id="radio-qc"> Quarto Coletivo (Enfermaria)
+                                </label>
+
+                                <label for="radio-qp">
+                                    <input type="radio" name="tipo-acomodacao" value="quarto-privativo" id="radio-qp"> Quarto Privativo (Apartamento)
+                                </label>
+
+                                <label for="radio-ambas">
+                                    <input type="radio" name="tipo-acomodacao" value="ambas" id="radio-ambas"> Cote Ambas
+                                </label>
+                        </fieldset>
+
+                        <fieldset class="coparticipacao">
+                            <legend>Podemos apresentar planos com coparticipação?</legend>
+                            <p class="descricao-copart">Planos com coparticipação tendem a ter seu valor reduzido em 30% em relação a planos sem coparticipação</p>
+                            <select>
+                                <option>Sim, pode me apresentar</option>
+                                <option>Não tenhpo interesse</option>
+                            </select>
+                        </fieldset>
+
+                    <label for="observacoes">Observações:</label>
+                    <textarea cols="60" rows="10" id="observacoes" class="input-padrao" placeholder="Insira aqui sua observação. Ex: Preciso do Hosp. São Camilo em minha rede credenciada"></textarea>
+                    </textarea>
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX)XXXXX-XXXX">
+
+                        <fieldset class="contato">
+                            <legend>Como prefere nosso contato?</legend>
+
+                            <label for="radio-email">
+                                <input type="radio" name="contato" value="email" id="radio-email"> E-mail
+                            </label>
+
+                            <label for="radio-telefone">
+                                <input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone
+                            </label>
+
+                            <label for="radio-whatsapp">
+                                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp 
+                            </label>
+                        </fieldset>
+                    
+                        <label class="checkbox" checked>
+                            <input type="checkbox" checked> Deseja receber mais novidades?
+                        </label>
+
+                    <input type="submit" value="Solicitar Cotação" class="enviar">
+                </form>
+            </section>
+    <footer>
+        <img class="imagem__rodape" src="img/alison.dev-logo.svg">
+
+    <p class="copyright">@copyright Alison.dev.br - 2023</p>
+    </footer> 
