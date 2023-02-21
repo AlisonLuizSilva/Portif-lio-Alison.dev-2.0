@@ -1,0 +1,61 @@
+.descricao__titulo-produtos{
+    line-height: 1em;
+
+}
+
+
+
+.apresentacao-produtos{
+    display: flex;
+    padding: 0 5em;
+
+}
+
+.descricao__titulo-produtos{
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.container__produtos{
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    padding: 3.5em;
+
+ }
+
+.item-produto__img{
+    width: 30vw;
+    height: auto;
+    padding: 0 2em;
+    border-radius: 50%;
+    
+}
+
+.item-produto__img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+
+
+
+    @media screen and (max-width: 480px){
+        .container__produtos{
+            display: inline-block;
+            width: 80%;
+            text-align: center;
+            padding: 2em;
+        
+         }
+       
+        .item-produto__img{
+            width: 30vw;
+            height: auto;
+            padding: 0 1em;
+            border-radius: 50%;
+                
+        }
+    
+}
