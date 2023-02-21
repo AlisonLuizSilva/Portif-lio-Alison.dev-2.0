@@ -58,3 +58,18 @@
     font-weight: 700;
 
 }
+
+
+/*BANNER COTÇÕES*/
+.banner__cotacoes{
+    background: var(--cinza-degrade);
+    color: var(--branco);
+    text-align: center;
+    padding: 9em 2em;
+}
+
+.banner-cotacoes__texto{
+    font-size: 30px;
+    font-weight: 700;
+
+}
