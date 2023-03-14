@@ -8,8 +8,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">                                  
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
         <link rel="stylesheet"  href="style.css">                           
     </head>
+    <body>
         <header class="cabeçalho">
             <div class="container">
                 <input type="checkbox" id="menu" class="container__botao">
@@ -21,7 +23,7 @@
                             <a href="/index.html" class="lista-menu__link">Menu Principal</a>
                         </li>
 
-                        <li class="lista-menu__titulo">Portifólio de Sites</li>
+                        <li class="lista-menu__titulo">Experiência Desenvolvimento Web</li>
                         
                         <li class="lista-menu__item">
                             <a href="/site_barbearia_alura/index.html" class="lista-menu__link">Site Barbearia Alura</a>
@@ -80,6 +82,58 @@
             <p class="descricao__apresentacao">🏦 Estágio: Caixa Econômica Federal→ Atendimento ao público, abertura de contas e elaboração de contratos;<br>🔐 Mercado Securitário: Ransom Seguros→ Responsável pela comercial e pós venda de benefícios (Saúde, Vida e Odontológico), Análise de dados por meio de Excel VBA e Relatórios Gerenciais</p>
 
         </section>
+
+
+            <h3 class="carrossel__titulo">Portifólio de Sites</h2>
+            <p class="carrossel__descricao">
+                <ul class="carrossel__descricao-lista">
+                    <li id="destaque__descricao">→ Ao navegar pelo meu portfólio, você encontrará exemplos de meu trabalho, incluindo:</li> 
+                    <li>☑ Websites responsivos que foram projetados e construídos para atender às necessidades específicas do cliente;</li>
+                     <li>☑ Portifólio de apresentação de perfil, com suas qualidades e softs kills;</li>
+                     <li>☑ E-commerces;</li>
+                     <li>☑ Landing pages.</li>
+                </ul>
+            </p>
+
+        <section class="carrossel">
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="/img/Mini-Portifólio.jpeg" alt="Miniatura Portifólio Web" class="carrossel__item"></div>
+                <div class="swiper-slide"><img src="/img/Mini-AluraBooks.jpeg" alt="Miniatura Alurabooks" class="carrossel__item"></div>
+                <div class="swiper-slide"><img src="/img/Mini-BarbeariaAlura.jpeg" alt="Miniatura Barbearia Alura" class="carrossel__item"></div>
+
+                </div>
+
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+        </section>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+            <script>
+                const swiper = new Swiper('.swiper', {
+                spaceBetween: 1,
+                slidesPerView: 2,
+                pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                },
+                });
+        </script>
+
+
+
+    </body>
     <footer>
                 <img class="imagem__rodape" src="img/alison.dev-logo.svg">
 
