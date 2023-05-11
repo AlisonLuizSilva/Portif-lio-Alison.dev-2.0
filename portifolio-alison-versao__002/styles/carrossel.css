@@ -1,29 +1,21 @@
-.carrossel__titulo{
-    text-align: center;
-    padding: 4em auto;;
+.descricao__certificados{
+    margin: 0 2em;
+    font-size: 16px;
 }
 
 .carrossel__descricao{
-    width: 80%;
-    margin: 0 auto;
-}
-
-.carrossel__descricao-lista{
-    width: 80%;
-    margin: 0 auto;
-    text-align:left;
-    line-height: 2em;
-}
-
-#destaque__descricao{
-    font-weight: 700;
+    text-align: center;
 }
 
 
 .carrossel{
-    width: 40%;
-    margin: 0 auto;
-    padding: 1em;
+    width: 100%;
+    margin: 2em 0 4em 0;
+
+}
+
+.carrossel__item{
+    width: 250px;
 }
 
 .swiper-pagination{
@@ -31,25 +23,5 @@
     padding: 0.5em 0;
 }
 
-.swiper-slide img{
-    width: 80%;
-}
 
-.swiper-button-prev ,
-.swiper-button-next {
-    display: none;
-}
 
-    @media screen and (max-width: 480px){
-        .carrossel{
-            width: 70%;
-            margin: 0 auto;
-            padding: 1em;
-        }
-
-        .swiper-slide img{
-            width: 85%;
-
-        }
-        
-    }
