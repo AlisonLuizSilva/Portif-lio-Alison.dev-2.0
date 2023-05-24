@@ -1,4 +1,5 @@
 .descricao__certificados{
+    text-align: center;
     margin: 0 2em;
     font-size: 16px;
 }
@@ -10,7 +11,7 @@
 
 .carrossel{
     width: 100%;
-    margin: 2em 0 4em 0;
+    margin: 2em 0;
 
 }
 
@@ -22,6 +23,28 @@
     position: relative ;
     padding: 0.5em 0;
 }
+
+    @media screen and (min-width:600px){
+        .carrossel__item{
+            width: 320px;
+        }        
+        
+    }
+
+    @media screen and (min-width:768px){
+        .carrossel__item{
+            width: 380px;
+        }
+
+    }
+
+    @media screen and (min-width:992px){
+        .carrossel__item{
+            width: 450px;
+        }
+
+    }
+
 
 
 

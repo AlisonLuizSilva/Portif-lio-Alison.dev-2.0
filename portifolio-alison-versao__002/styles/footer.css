@@ -1,6 +1,68 @@
-.titulo__rodape{
-    padding: 1em 0;
-    font-weight: 300;
-    border-top: 100%;
-    border-top: solid 1px gray;
+.rodape-1{
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-around;
 }
+
+.rodape-1__item{
+    margin: 1em;
+    padding: 0 0 0.5em 0;
+    color: darkgray;
+}
+
+#rodape-item{
+    margin: 0 1em;
+}
+
+.rodape-2{
+    background: var(--cinza-degrade);
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 0;
+}
+
+.rodape-item__2{
+    width: 50%;
+    text-align: center;
+}
+
+#logo__alison-footer{
+    width: 140px;
+}
+
+#frase{
+    font-size: 15px;
+    padding: 2em 0;
+}
+
+#servicos{
+    line-height: 1.5em;
+    text-align: left;
+    font-size: 16px;
+}
+
+
+.footer-frase{
+    width: 60%;
+    font-size: 14px;
+    line-height: 1em;
+}
+
+    @media screen and (max-width:991px){
+        #servicos{
+            display: none;
+        }
+
+    }
+
+    @media screen and(min-width:992px){
+        .rodape-item__2{
+            width: 30%;
+            
+        }
+
+        #logo__alison-footer{
+            width: 200px;
+        }
+
+    }
